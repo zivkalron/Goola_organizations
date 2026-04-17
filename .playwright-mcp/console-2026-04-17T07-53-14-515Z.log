@@ -1,2 +1,0 @@
-[    1862ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://lively-goola-wealth-flow.base44.app/app-logs/69e12a63e4c6c98085f84d29/log-user-in-app/home:0
-[    1961ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://lively-goola-wealth-flow.base44.app/api/apps/69e12a63e4c6c98085f84d29/entities/User/me:0
