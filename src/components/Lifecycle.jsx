@@ -64,7 +64,8 @@ export default function Lifecycle() {
 
         <div className="lc-wrap" ref={timelineRef}>
           <div className="lc-title">The goola Life Journey — Continuous Adaptation</div>
-          <div style={{ position: 'relative', paddingBottom: '16px' }}>
+          <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch', marginLeft: '-4px', marginRight: '-4px', paddingLeft: '4px', paddingRight: '4px', paddingTop: '4px', marginTop: '-4px' }}>
+          <div style={{ position: 'relative', paddingBottom: '16px', minWidth: '480px' }}>
             <div
               className={`lc-line ${timelineVisible ? 'is-visible' : ''}`}
               style={{
@@ -121,6 +122,7 @@ export default function Lifecycle() {
                 </div>
               ))}
             </div>
+          </div>
           </div>
           <div style={{
             display: 'flex', gap: '20px', marginTop: '24px',

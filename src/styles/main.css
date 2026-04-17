@@ -598,7 +598,8 @@ body {
   .stat-n    { font-size: 22px; }
 
   /* Section titles */
-  .stitle { font-size: 24px; }
+  .slabel { font-size: 12px; letter-spacing: 2.5px; }
+  .stitle { font-size: 28px; }
   .sbody  { font-size: 14px; margin-bottom: 28px; }
 
   /* Problem — 1 column */
